@@ -19,7 +19,7 @@ function Home() {
                     "Authorization": localStorage.getItem("token")
                 }
             }
-            const url = "http://localhost:3000/products"
+            const url = "https://signup-login-f77z.vercel.app/products"
             const res = await fetch(url, headers)
             const result = await res.json()
             setProducts(result)
