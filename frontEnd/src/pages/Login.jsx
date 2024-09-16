@@ -26,7 +26,7 @@ function Login() {
             return
         }
         try {
-            const url = "http://localhost:3000/auth/login"
+            const url = "https://signup-login-f77z.vercel.app/auth/login"
             const res = await fetch(url, {
                 method: "POST",
                 headers: {
